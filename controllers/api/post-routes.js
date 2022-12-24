@@ -76,7 +76,7 @@ router.post('/', withAuth, (req, res) => {
     // expects {title: 'Taskmaster goes public!', contents: 'contents', user_id: 1}
     Post.create({
         title: req.body.title,
-        post_url: req.body.contents,
+        contents: req.body.contents,
         user_id: req.session.user_id
     })
         .then(dbPostData => res.json(dbPostData))
