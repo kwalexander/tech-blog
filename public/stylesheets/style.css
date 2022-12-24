@@ -13,20 +13,20 @@ html {
 
 a {
     text-decoration: none;
-    color: #225ca3;
+    color: #D9EAD3;
     font-weight: bold;
     transition: color .1s;
 }
 
 a:hover {
-    color: #3486eb;
+    color: darkgreen;
 }
 
 button {
-    background-color: #225ca3;
+    background-color: #231010;
     border: 0;
     padding: 1%;
-    color: white;
+    color: #D9EAD3;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-    background-color: #3486eb;
+    color: darkgreen;
 }
 
 .post-list {
@@ -83,6 +83,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: #231010;
 }
 
 header h1 {
@@ -92,6 +93,7 @@ header h1 {
 main {
     flex: 1;
     padding: 2% 4%;
+    background-color: #D9EAD3;
 }
 
 .btn-no-style {
@@ -109,7 +111,11 @@ main {
 
 .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: black;
+}
+
+.nav-btn {
+    color: #D9EAD3;
 }
 
 .delete-post-btn {
@@ -128,7 +134,7 @@ main {
 .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: black;
 }
 
 .edit-link {
@@ -152,6 +158,7 @@ main {
 .comment {
     padding: 1%;
     margin-bottom: 1%;
+    color: grey;
 }
 
 .comment:nth-child(odd) {
